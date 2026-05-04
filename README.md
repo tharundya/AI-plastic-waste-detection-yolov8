@@ -51,5 +51,5 @@ The baseline model performed well for plastic detection but showed limitations i
 - Dulmi Tharundya Narasinghe - 12267791
 - Liam Scott - 12290871
 - Manan Bharatbhai Patel - 12278672
-- Md Nur Alam Islam Nafi - 
--Tanjim Ahmed Mahi - 
+- Md Nur Alam Islam Nafi - 12298910
+-Tanjim Ahmed Mahi - 12298057
