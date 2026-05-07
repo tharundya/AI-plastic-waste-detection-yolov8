@@ -53,22 +53,24 @@ Required libraries include:
 3. Install required libraries if necessary:
 ```python
 pip install ultralytics
-
+```
 4. Mount Google Drive if running in Colab
+```python
 from google.colab import drive
 drive.mount('/content/drive')
+```
 
 5. Update dataset paths if required.
 6. Run notebook cells sequentially from top to bottom.
 
-###Outputs
+### Outputs
 The notebook generates:
 
--trained model weights
--prediction images
--confusion matrices
--evaluation metrics
--training graphs
+- trained model weights
+- prediction images
+- confusion matrices
+- evaluation metrics
+- training graphs
 
 ## Final Optimised Configuration
 The final selected configuration included:
@@ -86,10 +88,10 @@ This configuration achieved the best balance between:
 - Training time
 
 ## Challenges and Lessons Learned
--Several technical and computational challenges were encountered during the project.
--Initially, some experiments were accidentally executed using CPU instead of GPU acceleration, resulting in extremely long training durations. Through experimentation, the importance of GPU-based deep learning training and computational efficiency became clear.
--Google Colab runtime resets and GPU usage limitations occasionally interrupted training sessions, requiring experiments to be rerun multiple times. This highlighted the importance of saving outputs, model weights, and experiment results directly to Google Drive.
--Additional challenges included debugging coding errors, resolving dataset path issues, and managing shared datasets and experiment outputs across multiple group members and branches.
+- Several technical and computational challenges were encountered during the project.
+- Initially, some experiments were accidentally executed using CPU instead of GPU acceleration, resulting in extremely long training durations. Through experimentation, the importance of GPU-based deep learning training and computational efficiency became clear.
+- Google Colab runtime resets and GPU usage limitations occasionally interrupted training sessions, requiring experiments to be rerun multiple times. This highlighted the importance of saving outputs, model weights, and experiment results directly to Google Drive.
+- Additional challenges included debugging coding errors, resolving dataset path issues, and managing shared datasets and experiment outputs across multiple group members and branches.
 
 These challenges improved understanding of:
 - GPU acceleration,
@@ -107,7 +109,7 @@ The main branch contains:
 Experimental and development work remains available within individual member branches.
 
 ## Conclusion
-The baseline model performed well for plastic detection but showed limitations in detecting bio and rov classes. FControlled experiments involving image size, training duration, augmentation, and model variants were conducted to analyse performance differences and computational trade-offs. The final optimised YOLOv8n configuration achieved improved detection performance while maintaining computational efficiency and practical deployment suitability. The project demonstrated the importance of balancing detection accuracy with GPU usage, training time, and overall computational cost during model optimisation.
+The baseline model performed well for plastic detection but showed limitations in detecting bio and rov classes. Controlled experiments involving image size, training duration, augmentation, and model variants were conducted to analyse performance differences and computational trade-offs. The final optimised YOLOv8n configuration achieved improved detection performance while maintaining computational efficiency and practical deployment suitability. The project demonstrated the importance of balancing detection accuracy with GPU usage, training time, and overall computational cost during model optimisation.
 
 ## Tools and Technologies
 - Python
@@ -120,4 +122,4 @@ The baseline model performed well for plastic detection but showed limitations i
 - Liam Scott - 12290871
 - Manan Bharatbhai Patel - 12278672
 - Md Nur Alam Islam Nafi - 12298910
--Tanjim Ahmed Mahi - 12298057
+- Tanjim Ahmed Mahi - 12298057
