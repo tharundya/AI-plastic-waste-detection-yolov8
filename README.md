@@ -52,7 +52,7 @@ Required libraries include:
    Runtime → Change Runtime Type → GPU
 3. Install required libraries if necessary:
 ```python
-pip install ultralytics
+pip install ultralytics -r requirements.txt
 ```
 4. Mount Google Drive if running in Colab
 ```python
