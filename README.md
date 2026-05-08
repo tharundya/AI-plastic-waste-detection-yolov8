@@ -13,7 +13,7 @@ Each group member conducted specific controlled experiments within separate GitH
 | [Baseline Model](https://github.com/tharundya/AI-plastic-waste-detection-yolov8/blob/main/baseline_yolov8n.ipynb) | Baseline YOLOv8n model |
 | [Enhanced Training (60 Epochs)](https://github.com/tharundya/AI-plastic-waste-detection-yolov8/blob/main/Enhanced_training_Manan_60epochs.ipynb) | Extended training experiment |
 | [Model Comparison](https://github.com/tharundya/AI-plastic-waste-detection-yolov8/blob/main/Liam_Model_Comparison_Final.ipynb) | YOLOv8n vs YOLOv8s comparison |
-| [Augmentation Enabled Model](https://github.com/tharundya/AI-plastic-waste-detection-yolov8/blob/main/AI_Waste_Detection_Member4_Data_Augmentation.ipynb) | Data augmentation experiment |
+| [Augmentation Enabled Model](https://github.com/tharundya/AI-plastic-waste-detection-yolov8/blob/main/AI_Waste_Detection_Member4_Data_Augmentation.ipynb.ipynb) | Data augmentation experiment |
 | [Final Optimised Model](https://github.com/tharundya/AI-plastic-waste-detection-yolov8/blob/main/final_optimised_yolov8n_underwater_waste_detection.ipynb) | Final selected optimised configuration |
 
 Experimental and development work remains available within individual member branches.
