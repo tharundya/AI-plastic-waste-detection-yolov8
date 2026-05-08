@@ -1,5 +1,24 @@
 # AI-Based Plastic Waste Detection using YOLOv8
 
+## Repository Structure
+Each group member conducted specific controlled experiments within separate GitHub branches.
+
+## Main Branch Contents
+- final notebooks
+- presentation materials
+- documentation
+
+| Notebook | Description |
+|---|---|
+| [Baseline Model](https://github.com/tharundya/AI-plastic-waste-detection-yolov8/blob/main/baseline_yolov8n.ipynb) | Baseline YOLOv8n model |
+| [Enhanced Training (60 Epochs)](https://github.com/tharundya/AI-plastic-waste-detection-yolov8/blob/main/Enhanced_training_Manan_60epochs.ipynb) | Extended training experiment |
+| [Model Comparison](https://github.com/tharundya/AI-plastic-waste-detection-yolov8/blob/main/Liam_Model_Comparison_Final.ipynb) | YOLOv8n vs YOLOv8s comparison |
+| [Augmentation Enabled Model](https://github.com/tharundya/AI-plastic-waste-detection-yolov8/blob/main/AI_Waste_Detection_Member4_Data_Augmentation.ipynb) | Data augmentation experiment |
+| [Final Optimised Model](https://github.com/tharundya/AI-plastic-waste-detection-yolov8/blob/main/final_optimised_yolov8n_underwater_waste_detection.ipynb) | Final selected optimised configuration |
+
+Experimental and development work remains available within individual member branches.
+
+
 ## Project Overview
 This project presents an AI-based object detection system developed using YOLOv8 to identify and classify waste materials such as plastic, bio, and rov from images. The system is designed to support automated waste detection using deep learning techniques.
 
@@ -99,14 +118,6 @@ These challenges improved understanding of:
 - experiment management,
 - debugging,
 - and collaborative AI development workflows.
-
-## Repository Structure
-Each group member conducted specific controlled experiments within separate GitHub branches.
-The main branch contains:
-- final notebooks
-- presentation materials
-- documentation
-Experimental and development work remains available within individual member branches.
 
 ## Conclusion
 The baseline model performed well for plastic detection but showed limitations in detecting bio and rov classes. Controlled experiments involving image size, training duration, augmentation, and model variants were conducted to analyse performance differences and computational trade-offs. The final optimised YOLOv8n configuration achieved improved detection performance while maintaining computational efficiency and practical deployment suitability. The project demonstrated the importance of balancing detection accuracy with GPU usage, training time, and overall computational cost during model optimisation.
