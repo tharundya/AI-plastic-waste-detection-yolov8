@@ -3,7 +3,7 @@
 ## Repository Structure
 Each group member conducted specific controlled experiments within separate GitHub branches.
 
-## Main Branch Contents
+### Main Branch Contents
 - final notebooks
 - presentation materials
 - documentation
